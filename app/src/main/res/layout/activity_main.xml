@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:columnCount="1"
+    android:rowCount="6"
+    android:useDefaultMargins="true">
+
+    <TextView
+        android:id="@+id/gasolinaTextView"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_columnSpan="1"
+        android:text="@string/texto_gasolina"
+        />
+
+    <SeekBar
+        android:id="@+id/gasolinaSeekBar"
+        android:layout_gravity="fill_horizontal"
+        android:max="500"
+        android:layout_columnSpan="1"
+        />
+
+    <TextView
+        android:id="@+id/etanolTextView"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_columnSpan="1"
+        android:text="@string/texto_etanol"
+        />
+
+    <SeekBar
+        android:id="@+id/etanolSeekBar"
+        android:layout_gravity="fill_horizontal"
+        android:max="500"
+        android:layout_columnSpan="1"
+        />
+
+    <TextView
+        android:id="@+id/resultadoTextView"
+        android:layout_columnSpan="1"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/texto_resultado_padrao"
+        />
+
+    <ImageView
+        android:id="@+id/resultadoImageView"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="1"
+        android:layout_gravity="center"
+        android:layout_height="440dp"
+        app:srcCompat="@drawable/interrogacao" />
+
+</GridLayout>

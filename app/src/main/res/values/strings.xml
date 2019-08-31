@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Etanol_ou_Gasolina</string>
+    <string name="texto_gasolina">Litro da Gasolina: </string>
+    <string name="texto_etanol">Litro do Etanol: </string>
+    <string name="texto_resultado_padrao">Informe valores dos tipos de combustível</string>
+    <string name="texto_resultado_gasolina">Gasolina vale mais a pena</string>
+    <string name="texto_resultado_etanol">Etanol vale mais a pena</string>
+</resources>
