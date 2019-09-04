@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ethanol or Gasoline?</string>
+    <string name="texto_gasolina">Petrol liter: </string>
+    <string name="texto_etanol">Liter of Ethanol: </string>
+    <string name="texto_resultado_padrao">Enter fuel type values</string>
+    <string name="texto_resultado_gasolina">Gasoline is worth it</string>
+    <string name="texto_resultado_etanol">Ethanol is worth it</string>
+</resources>

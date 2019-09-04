@@ -13,10 +13,11 @@
     <TextView
         android:id="@+id/gasolinaTextView"
         android:layout_width="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:layout_columnSpan="1"
-        android:text="@string/texto_gasolina"
-        />
+        android:layout_gravity="center_horizontal"
+        android:padding="12dp"
+        android:text="@string/app_name"
+        android:typeface="sans" />
 
     <SeekBar
         android:id="@+id/gasolinaSeekBar"
@@ -31,6 +32,8 @@
         android:layout_gravity="center_horizontal"
         android:layout_columnSpan="1"
         android:text="@string/texto_etanol"
+        android:padding="12dp"
+        android:typeface="sans"
         />
 
     <SeekBar
@@ -45,6 +48,8 @@
         android:layout_columnSpan="1"
         android:layout_gravity="center_horizontal"
         android:text="@string/texto_resultado_padrao"
+        android:padding="12dp"
+        android:typeface="sans"
         />
 
     <ImageView
@@ -52,7 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_columnSpan="1"
         android:layout_gravity="center"
-        android:layout_height="440dp"
+        android:layout_height="380dp"
         app:srcCompat="@drawable/interrogacao" />
 
 </GridLayout>

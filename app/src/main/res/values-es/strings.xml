@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Etanol o Gasolina</string>
+    <string name="texto_gasolina">Litro de Gasolina: </string>
+    <string name="texto_etanol">Litro de Etanol: </string>
+    <string name="texto_resultado_padrao">Ingrese los valores del tipo de combustible</string>
+    <string name="texto_resultado_gasolina">La gasolina lo vale</string>
+    <string name="texto_resultado_etanol">El etanol lo vale</string>
+</resources>
